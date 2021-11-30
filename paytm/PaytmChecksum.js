@@ -1,6 +1,6 @@
 "use strict";
 
-import crypto from 'crypto';
+var crypto = require('crypto');
 
 class PaytmChecksum {
 
