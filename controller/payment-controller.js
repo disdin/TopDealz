@@ -57,7 +57,7 @@ export const paymentResponse = (request, response) => {
 
                     post_res.on('end', function () {
                         let result = JSON.parse(res)
-                        response.redirect(`https://topdealz.herokuapp.com`)
+                        response.redirect(`/`)
                     });
                 });
                 post_req.write(post_data);
