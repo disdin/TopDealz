@@ -1,6 +1,6 @@
 "use strict";
 
-import crypto from'crypto';
+import crypto from 'crypto';
 
 class PaytmChecksum {
 
